@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dad's Computer | Proposal Deck</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="terminal-box">
+    <h1>💾 Dad's Computer | Proposal Deck Generator</h1>
+
+    <input id="project" placeholder="[project_name]" />
+    <textarea id="about" placeholder="[about_the_project]"></textarea>
+    <textarea id="pricing" placeholder="[pricing_tiers]"></textarea>
+    <input id="style" placeholder="[visual_style]" />
+    <button onclick="generateOutput()">💾 Download Dads Deck</button>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="html2pdf.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
